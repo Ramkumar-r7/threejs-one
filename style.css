@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: "Darlington";
+  src: url("fonts/DarlingDonton.ttf") format("truetype");
+}
+
+html,
+body {
+  height: 100vh;
+  font-family: "Darlington";
+  background: rgb(24, 24, 24);
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.webgl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  outline: none;
+  mix-blend-mode: exclusion;
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+h1 {
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 8rem;
+}
+
+section {
+  height: 100vh;
+}
